@@ -1,0 +1,48 @@
+com.SystemGroups/
+├── .idea/
+├── .mvn/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── Module010_CEO/             # ماژول حوزه هیات مدیره  و هیات عامل
+│   │   │   ├── Module020_Fin/             # ماژول حوزه امور مالی و اقتصادی
+│   │   │   ├── Module030_Shr/             # ماژول امور سهام و مجامع
+│   │   │   ├── Module040_PME/             # ماژول حوزه ساختمان، اموال، ماشین‌آلات و تجهیزات
+│   │   │   ├── Module050_HR/              # ماژول حوزه منابع انسانی
+│   │   │   ├── Module060_Leg/             # ماژول حوزه امور حقوقی
+│   │   │   ├── Module070_Pbl/             # ماژول حوزه روابط عمومی و تبلیغات
+│   │   │   ├── Module080_Org/             # ماژول حوزه تشکیلات و روشها
+│   │   │   ├── Module090_RaT/             # ماژول حوزه آموزش و پژوهش
+│   │   │   ├── Module100_ICT/             # ماژول حوزه فاوا
+│   │   │   ├── Module110_Brh/             # ماژول حوزه امور شعب و باجه‌ها
+│   │   │   ├── Module120_Dps/             # ماژول امور سپرده‌گذاری پولی و شبه‌پولی
+│   │   │   │   ├── presentation/          # Presentation Layer
+│   │   │   │   │   ├── controllers/
+│   │   │   │   │   ├── views/              # اطلاعات این لایه در پوشه webapp قرار می‌گیرد
+│   │   │   │   │   └── dtos/              # DTOs: Data Transfer Objects for passing data between layers.
+│   │   │   │   ├── business/              # Business Logic Layer
+│   │   │   │   │   ├── services/
+│   │   │   │   │   ├── rules/
+│   │   │   │   │   └── validation/
+│   │   │   │   └── data/              # Data Access Layer
+│   │   │   │       ├── repositories/
+│   │   │   │       ├── entities/
+│   │   │   │       └── mappers/
+│   │   │   ├── Module130_Lon/              # ماژول امور وام و تسهیلات مالی
+│   │   │   ├── Module140_Crd/              # ماژول امور اعتباری و ضمانت‌نامه‌ها
+│   │   │   ├── Module150_Ivs/              # ماژول امور سرمایه‌گذاری‌ها
+│   │   │   ├── Module160_Arc/              # ماژول بایگانی اسناد و مدارک 
+│   │   │   ├── resources/
+│   │   │   └── webapp/
+│   │   │       ├── WEB-INF/
+│   │   │       │   └── web.xml
+│   │   │       └── index.jsp
+│   │   └── test/
+│   │       ├── java/
+│   │       └── resources/
+│   └── target/
+├── .gitignore
+├── mvnw
+├── mvnw.cmd
+└── pom.xml
+
